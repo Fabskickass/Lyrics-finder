@@ -105,3 +105,22 @@ div.borderXwidth a:hover:before, div.borderXwidth a:hover:after
     opacity: 1;
     width: 100%;
 }
+
+.btn-color{
+    background-color: rgb(139, 2, 87);
+    color: #b1bed4;
+    border-color:rgb(139, 2, 87);
+}
+.btn-color:hover{
+    background-color: rgb(139, 2, 87);
+    color:  #94abcd;
+    border-color:rgb(139, 2, 87);
+}
+.search-color{
+    background-color: #a8b7cd;
+    border-color: rgb(139, 2, 87);
+}
+.search-color:hover{
+    background-color: #94abcd;
+    border-color: #314a78;
+}
