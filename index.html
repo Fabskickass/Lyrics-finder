@@ -1,41 +1,54 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Movie display</title>
-    <link rel="stylesheet" href="./assets/css/style.css">
-</head>
-<body>
-    <header class = "headerBox">
-        <h1>Movie display</h1>
-        <div class = "nav borderYtoX">
-                <a>Home</a>
-                <a>About</a>
-                <a>Contact</a> 
-        </div>
-        
-    </header>
-    
-    <br>
-    <section>
-        <div class="input-group m b-3">
-            <input type="text" class="form-control search-color" placeholder="Please enter Movie Name Here"
-            aria-label="Movie Name"  id="InputFromUser" >
-    <div class="input-group-append">
-            <button class="btn btn-outline-secondary btn-color" type="button" id="searchBtn">Search</button>
-        </div>
-        
+   <head>
+      <meta charset="UTF-8" />
+      <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <title>Movie display</title>
+      <link rel="stylesheet" href="./assets/css/style.css" />
+   </head>
+   <body>
+      <header class="headerBox">
+         <h1>Movie Display</h1>
+         <div class="nav borderYtoX">
+            <a>Home</a>
+            <a>About</a>
+            <a>Contact</a>
+         </div>
+      </header>
 
-        <!----for local storage-->
-        <section class="row">
-            <div class="col-md-1"></div>
-            <div class="col-md-3">
-                <div class="list-group"></div>
-            </div>
-    </section>
-<script src="./assets/js/script.js"></script>
-</body>
+      <br />
+      <section>
+         <div class="m b-3">
+            <input
+               type="text"
+               class="form-control search-color"
+               placeholder="Please enter Movie Name Here"
+               aria-label="Movie Name"
+               id="InputFromUser"
+            />
+         </div>
+         <div class="input-group-append">
+            <button
+               class="btn btn-outline-secondary btn-color"
+               type="button"
+               id="searchBtn"
+            >
+               Search
+            </button>
+         </div>
+      </section>
+      <section>
+         <ul id="results"></ul>
+      </section>
+
+      <!----for local storage-->
+      <section class="row">
+         <div class="col-md-1"></div>
+         <div class="col-md-3">
+            <div class="list-group"></div>
+         </div>
+      </section>
+      <script src="./assets/js/script.js"></script>
+   </body>
 </html>
-
