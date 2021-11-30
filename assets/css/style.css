@@ -5,7 +5,7 @@
    }
 
    body{
-    @import 'https://fonts.googleapis.com/css?family=Raleway'
+    font-family: 'Raleway', sans-serif;
    }
 
    .headerBox  {
@@ -59,7 +59,6 @@ div.borderYtoX a:before, div.borderYtoX a:after
     background: #FFF;
     transition: all 0.3s;
     display: inline;
-   
 }
 
 div.borderYtoX a:before
@@ -124,3 +123,54 @@ div.borderXwidth a:hover:before, div.borderXwidth a:hover:after
     background-color: #94abcd;
     border-color: #314a78;
 }
+
+/* DOWNLOAD BUTTONS AND FOOTER */
+
+footer{
+    display:block;
+    justify-content: flex-end;
+   
+}
+
+
+.icons{
+    padding-left: 100px;
+    display:flex;
+    align-items: center;
+    padding-bottom: 30px;
+    gap:20px;
+}
+.icon-btn{
+    background-color:rgb(33, 82, 173);
+    color:white;
+    padding:10px 20px 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+.icon-btn:hover{
+    background-color: rgb(99, 99, 218);
+}
+
+
+
+.icon{
+    padding-left:5px;
+}
+
+.copyright{
+    width:100%;
+    padding-top:30px;
+    padding-bottom: 30px;
+    background-color:rgb(48, 90, 172) ;
+    color:white;
+    text-align: center;
+    font-weight: bold;
+}
+
+
+
+
+
+
+

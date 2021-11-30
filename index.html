@@ -1,41 +1,68 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- FONT-FAMILY -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Domine:wght@600&family=Raleway:wght@100&family=Roboto+Mono:ital,wght@0,500;1,400&family=Special+Elite&display=swap"
+        rel="stylesheet">
+    <!-- ICONS -->
+    <script src="https://kit.fontawesome.com/4cf7e7bf8a.js" crossorigin="anonymous"></script>
     <title>Music display</title>
+
     <link rel="stylesheet" href="./assets/css/style.css">
 </head>
+
 <body>
-    <header class = "headerBox">
+    <header class="headerBox">
         <h1>Movie display</h1>
-        <div class = "nav borderYtoX">
-                <a>Home</a>
-                <a>About</a>
-                <a>Contact</a> 
-        </div>
-        
+        <div class="nav borderYtoX">
+            <a>Home</a>
+            <a>About</a>
+            <a>Contact</a>
     </header>
-    
+
     <br>
     <section>
         <div class="input-group m b-3">
             <input type="text" class="form-control search-color" placeholder="Please enter Artist or Music Name Here"
-            aria-label="Artist Name"  id="InputFromUser" >
-    <div class="input-group-append">
-            <button class="btn btn-outline-secondary btn-color" type="button" id="searchBtn">Search</button>
-        </div>
-        
-
-        <!----for local storage-->
-        <section class="row">
-            <div class="col-md-1"></div>
-            <div class="col-md-3">
-                <div class="list-group"></div>
+                aria-label="Artist Name" id="InputFromUser">
+            <div class="input-group-append">
+                <button class="btn btn-outline-secondary btn-color" type="button" id="searchBtn">Search</button>
             </div>
-    </section>
-<script src="./assets/js/script.js"></script>
-</body>
-</html>
 
+
+            <!----for local storage-->
+            <section class="row">
+                <div class="col-md-1"></div>
+                <div class="col-md-3">
+                    <div class="list-group"></div>
+                </div>
+            </section>
+            <script src="./assets/js/script.js"></script>
+        </div>
+
+
+        <footer>
+            <div class='icons'>
+                <button class='icon-btn'>Download<i class="icon fab fa-google-play"></i></button>
+                <button class='icon-btn'>Download<i class="icon fab fa-apple"></i></button>
+            </div>
+
+            <p class="copyright">© Made with love by group-6</p>
+        </footer>
+
+
+
+
+
+
+
+        <script src="./assets/js/script.js"></script>
+</body>
+
+</html>
