@@ -1,1 +1,40 @@
 
+
+
+
+
+/* //Download buttons */
+
+.icons{
+    padding-left: 100px;
+     display:flex;
+     align-items: center;
+    padding-bottom: 30px;
+     gap:20px;
+}
+.icon-btn{
+    background-color:rgb(48, 90, 172);
+    color:white;
+    padding:10px 20px 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+.icon-btn:hover{
+    background-color: rgb(99, 99, 218);
+}
+
+
+
+.icon{
+    padding-right:5px;
+}
+
+.copyright{
+    display: flex;
+    justify-content: center;
+    padding-top:30px;
+    padding-bottom: 30px;
+    background-color:rgb(48, 90, 172) ;
+    color:white;
+}
