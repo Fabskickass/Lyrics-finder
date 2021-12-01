@@ -130,6 +130,9 @@ div.borderXwidth a:hover:after {
    border-color: #314a78;
 }
 
+.form-control:hover {
+   background-color: #ffff;
+}
 /* DOWNLOAD BUTTONS AND FOOTER */
 
 footer {
