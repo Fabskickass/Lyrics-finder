@@ -29,6 +29,7 @@ body {
 #results,
 #lyrics {
   flex-grow: 1;
+  margin-bottom: 200px;
 }
 div.nav {
   font-family: Raleway;
@@ -130,13 +131,11 @@ div.borderXwidth a:hover:after {
     border-color: #314a78;
 }
 
-ul {
-  margin-bottom: 200px;
-}
+
 
 /* DOWNLOAD BUTTONS AND FOOTER */
 
-footer{
+footer {
     display:block;
     justify-content: flex-end;
     position: fixed;
