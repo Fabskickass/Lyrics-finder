@@ -110,31 +110,66 @@ div.borderXwidth a:hover:after {
   width: 100%;
 }
 
-.btn-color {
-  background-color: rgb(139, 2, 87);
-  color: #b1bed4;
-  border-color: rgb(139, 2, 87);
+.btn
+{
+    color: #94abcd;
+    background-color: rgb(30, 21, 109) ;
+    outline: none;
+    min-height: 38px;
+    font-weight: 400px;
+    text-align:center;
+    cursor: pointer;
+    padding: 5px;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: .25rem;
+
 }
-.btn-color:hover {
-  background-color: rgb(139, 2, 87);
-  color: #94abcd;
-  border-color: rgb(139, 2, 87);
-}
-.search-color {
-  background-color: #a8b7cd;
-  border-color: rgb(139, 2, 87);
-}
-.search-color:hover {
-  background-color: #94abcd;
-  border-color: #314a78;
+.btn:hover{
+    color:#FFF;
+    background-color:rgb(134, 13, 221);
+
 }
 
+
+.form-group
+{
+    margin-bottom: 1rem;
+    display:flex;
+    
+}
+.form-group{
+  justify-content: center;
+  text-align: center;
+}
+
+.form-control
+{
+    width: 560px;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    outline: none;
+    color: #303133;
+    background-color: #7fa6e0;
+    border: 1px solid #314a78;
+    border-radius: .25rem;
+
+}
+
+.form-control:hover{
+  background-color: #ffff;
+}
 /* DOWNLOAD BUTTONS AND FOOTER */
 
 footer {
   display: block;
   justify-content: flex-end;
+  margin-top:20px;
 }
+
+
 
 .icons {
   padding-left: 100px;
@@ -152,7 +187,7 @@ footer {
 }
 
 .icon-btn:hover {
-  background-color: rgb(99, 99, 218);
+  background-color: rgb(134, 13, 221);
 }
 
 .icon {
@@ -163,7 +198,7 @@ footer {
   width: 100%;
   padding-top: 30px;
   padding-bottom: 30px;
-  background-color: rgb(48, 90, 172);
+  background-color: rgb(29, 63, 131);
   color: white;
   text-align: center;
   font-weight: bold;

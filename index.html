@@ -29,15 +29,24 @@
     <br>
     <section>
         <div class="input-group m b-3">
-            <input type="text" class="form-control search-color" placeholder="Please enter Artist or Music Name Here"
-                aria-label="Artist Name" id="InputFromUser">
-            <div class="input-group-append">
-                <button class="btn btn-outline-secondary btn-color" type="button" id="searchBtn">Search</button>
-            </div>
+            <form >
+                <div class="form-group">
+                     <input type="text" class="form-control search-color" placeholder="Please enter Artist or Music Name Here"
+                      aria-label="Artist Name" id="InputFromUser">
+            
+                     <button class="btn btn-outline-secondary btn-color" type="button" id="searchBtn">Search a Music</button>
+               </div> 
+            </form>
+       </div>
+   <br>
+    </section>   
 
     <section id="search-results">
+
+        <div>
       <ul id="results"></ul>
       <div id="lyrics"></div>
+    </div>
     </section>
 
             <!----for local storage-->
@@ -47,10 +56,10 @@
                     <div class="list-group"></div>
                 </div>
             </section>
-            <script src="./assets/js/script.js"></script>
-        </div>
+           
+       
 
-
+<br>
         <footer>
             <div class='icons'>
                 <button class='icon-btn'>Download<i class="icon fab fa-google-play"></i></button>
@@ -59,12 +68,6 @@
 
             <p class="copyright">© Made with love by group-6</p>
         </footer>
-
-
-
-
-
-
 
         <script src="./assets/js/script.js"></script>
 </body>
