@@ -48,7 +48,3 @@ document.querySelector("#results").addEventListener("click", function (event) {
   var songInfo = event.target.textContent.replace(" — ", "/");
   searchLyrics(songInfo);
 });
-
-// select class name from li
-//get results/value
-//append to ul #results
