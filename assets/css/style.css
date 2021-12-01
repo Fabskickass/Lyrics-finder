@@ -9,12 +9,13 @@
    }
 
 body {
-  @import "https://fonts.googleapis.com/css?family=Raleway";
+  /* @import "https://fonts.googleapis.com/css?family=Raleway"; */
+  
 }
 
 .headerBox {
   background: radial-gradient(rgb(33, 82, 173), rgb(0, 0, 0));
-  height: 30vh;
+  height: 300px;
   color: white;
   text-align: center;
   padding-top: 20px;
@@ -129,17 +130,27 @@ div.borderXwidth a:hover:after {
     border-color: #314a78;
 }
 
+ul {
+  margin-bottom: 200px;
+}
+
 /* DOWNLOAD BUTTONS AND FOOTER */
 
 footer{
     display:block;
     justify-content: flex-end;
-   
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    z-index: 1;
+    padding-top: 30px;
+    background: radial-gradient(rgb(255, 255, 255), rgb(0, 0, 0));
 }
 
 
 .icons{
-    padding-left: 100px;
+   width: 50%;
+    margin: 0 auto;
     display:flex;
     align-items: center;
     padding-bottom: 30px;
@@ -151,13 +162,12 @@ footer{
     padding:10px 20px 10px 20px;
     font-size: 16px;
     border-radius: 5px;
+    margin: 0 auto;
 }
 
 .icon-btn:hover{
     background-color: rgb(99, 99, 218);
 }
-
-
 
 .icon{
     padding-left:5px;
@@ -167,7 +177,7 @@ footer{
     width:100%;
     padding-top:30px;
     padding-bottom: 30px;
-    background-color:rgb(48, 90, 172) ;
+    background:radial-gradient(rgb(33, 82, 173), rgb(0, 0, 0)) ;
     color:white;
     text-align: center;
     font-weight: bold;
