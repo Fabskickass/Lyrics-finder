@@ -1,8 +1,12 @@
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   }
+
+   body{
+    font-family: 'Raleway', sans-serif;
+   }
 
 body {
   @import "https://fonts.googleapis.com/css?family=Raleway";
@@ -54,16 +58,16 @@ h1 {
 }
 
 /* Border from Y to X  */
-div.borderYtoX a:before,
-div.borderYtoX a:after {
-  position: absolute;
-  opacity: 0.5;
-  height: 100%;
-  width: 2px;
-  content: "";
-  background: #fff;
-  transition: all 0.3s;
-  display: inline;
+div.borderYtoX a:before, div.borderYtoX a:after
+{
+    position: absolute;
+    opacity: 0.5;
+    height: 100%;
+    width: 2px;
+    content: '';
+    background: #FFF;
+    transition: all 0.3s;
+    display: inline;
 }
 
 div.borderYtoX a:before {
@@ -106,21 +110,65 @@ div.borderXwidth a:hover:after {
   width: 100%;
 }
 
-.btn-color {
-  background-color: rgb(139, 2, 87);
-  color: #b1bed4;
-  border-color: rgb(139, 2, 87);
+.btn-color{
+    background-color: rgb(139, 2, 87);
+    color: #b1bed4;
+    border-color:rgb(139, 2, 87);
 }
-.btn-color:hover {
-  background-color: rgb(139, 2, 87);
-  color: #94abcd;
-  border-color: rgb(139, 2, 87);
+.btn-color:hover{
+    background-color: rgb(139, 2, 87);
+    color:  #94abcd;
+    border-color:rgb(139, 2, 87);
 }
-.search-color {
-  background-color: #a8b7cd;
-  border-color: rgb(139, 2, 87);
+.search-color{
+    background-color: #a8b7cd;
+    border-color: rgb(139, 2, 87);
 }
-.search-color:hover {
-  background-color: #94abcd;
-  border-color: #314a78;
+.search-color:hover{
+    background-color: #94abcd;
+    border-color: #314a78;
+}
+
+/* DOWNLOAD BUTTONS AND FOOTER */
+
+footer{
+    display:block;
+    justify-content: flex-end;
+   
+}
+
+
+.icons{
+    padding-left: 100px;
+    display:flex;
+    align-items: center;
+    padding-bottom: 30px;
+    gap:20px;
+}
+.icon-btn{
+    background-color:rgb(33, 82, 173);
+    color:white;
+    padding:10px 20px 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+.icon-btn:hover{
+    background-color: rgb(99, 99, 218);
+}
+
+
+
+.icon{
+    padding-left:5px;
+}
+
+.copyright{
+    width:100%;
+    padding-top:30px;
+    padding-bottom: 30px;
+    background-color:rgb(48, 90, 172) ;
+    color:white;
+    text-align: center;
+    font-weight: bold;
 }
