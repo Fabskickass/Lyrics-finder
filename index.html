@@ -12,33 +12,45 @@
         rel="stylesheet">
     <!-- ICONS -->
     <script src="https://kit.fontawesome.com/4cf7e7bf8a.js" crossorigin="anonymous"></script>
-    <title>Music display</title>
+    <title>Artist & Lyrics</title>
 
     <link rel="stylesheet" href="./assets/css/style.css">
 </head>
 
 <body>
     <header class="headerBox">
-        <h1>Movie display</h1>
+        <h1>Artist & Lyrics</h1>
         <div class="nav borderYtoX">
-            <a>Home</a>
-            <a>About</a>
-            <a>Contact</a>
+            <a href="#">Home</a>
+            <a href="#">About</a>
+            <a href="#">Contact</a>
     </header>
+
+    <div class='about'>
+        <h2 >About</h2>
+        <p>We are a group of entrepreneurs that want to make a change in the world of IT, we want to show the young
+            people,
+            musicians and lovers of music how can they are allowed to have acces to those lyrics that you really want to
+            learn
+            This page was made for those musicians that need to live by day and keep track of all kinds of lyrics and
+            learn
+            the newest songs of the day.</p>
+    </div>
+
 
     <br>
     <section>
         <div class="input-group m b-3">
-            <input type="text" class="form-control search-color" placeholder="Please enter Artist or Music Name Here"
+            <input type="text" class="form-control search-color" placeholder="Enter Artist or Song Name Here"
                 aria-label="Artist Name" id="InputFromUser">
             <div class="input-group-append">
                 <button class="btn btn-outline-secondary btn-color" type="button" id="searchBtn">Search</button>
             </div>
 
-    <section id="search-results">
-      <ul id="results"></ul>
-      <div id="lyrics"></div>
-    </section>
+            <section id="search-results">
+                <ul id="results"></ul>
+                <div id="lyrics"></div>
+            </section>
 
             <!----for local storage-->
             <section class="row">
