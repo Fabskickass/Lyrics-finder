@@ -14,6 +14,12 @@ function searchArtist(searchTerm) {
             //add class name to "li"
             listEl.innerHTML = item.artistName + " — " + item.trackName;
             document.querySelector("#results").appendChild(listEl);
+          } else {
+            item.artistName == undefined && item.trackName == undefined;
+            console.log(error);
+            var listError = document.createElement("div");
+            listError.innerHTML = "Artist or song not found!";
+            document.querySelector("#results").appendChild(listError);
           }
         });
       });
@@ -47,4 +53,12 @@ document.querySelector("#results").addEventListener("click", function (event) {
   console.log(event.target.textContent);
   var songInfo = event.target.textContent.replace(" — ", "/");
   searchLyrics(songInfo);
+  var songInfo = event.target.textContent;
+  storage.push(string);
+  localStorage.setItem("songObject", JSON.stringify(storage));
 });
+
+var storage = JSON.parse(localStorage.getItem("songObject"));
+if (storage === null) {
+  storage = [];
+}
