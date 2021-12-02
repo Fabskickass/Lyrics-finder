@@ -18,6 +18,8 @@ __WE use for this project__
 - [iTunes](https://affiliate.itunes.apple.com/resources/documentation/itunes-store-web-service-search-api/)
 - [Second API title](https...)
 
+![Artist and Lyrics Project, Team-6](./assets/images/artist-and-lyrics-project.png)
+
 
 
 
