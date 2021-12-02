@@ -13,6 +13,8 @@ body {
   font-family: 'Raleway', sans-serif;
 }
 
+
+
 .headerBox {
   background: radial-gradient(rgb(33, 82, 173), rgb(0, 0, 0));
   height: 130px;
@@ -70,13 +72,21 @@ h1 {
   display: inline;
 }
 
+div h3{
+  border:2px solid black;
+  border-radius: 5px;
+  padding: 10px 20px;
+  margin-right: 20px;
+}
+
 ul{
   text-align: left;
+  border:solid 2x gray;
 }
 
 
 .input-group {
-padding-left: 100px;
+  padding: 30px 0 30px 100px;
 position: relative;
 }
 
@@ -149,6 +159,8 @@ div.borderXwidth a:hover:after {
     background-color: rgb(110, 59, 110);
 }
 
+
+
 .search-color{
   padding:10px 20px 10px 20px;
   border-radius: 5px;
@@ -159,7 +171,8 @@ div.borderXwidth a:hover:after {
 #search-results{
   position: relative;
   text-align: center;
-  
+  cursor: pointer;
+  padding-left: 0;
 }
 
 #searchBtn{
@@ -213,8 +226,8 @@ footer {
 
 .copyright{
     width:100%;
-    padding-top:30px;
-    padding-bottom: 30px;
+    padding-top:20px;
+    padding-bottom: 20px;
     background:radial-gradient(rgb(33, 82, 173), rgb(0, 0, 0)) ;
     color:white;
     text-align: center;
@@ -225,6 +238,10 @@ footer {
 
   h1{
     font-size:35px;
+  }
+
+  #search-results{
+    display: block;
   }
   .input-group {
     text-align: center;
@@ -251,8 +268,22 @@ footer {
     margin-top:30px;
   }
 
+  #results {
+    margin-bottom: 50px;
+  }
+
+
   #search-results{
     padding-bottom: 20px;
+    position: relative;
+    text-align: center;
+    cursor: pointer;
+    display: block;
+  }
+
+  .input-group{
+    text-align: center;
+    padding-left: 0;
   }
 
   .icons{
@@ -262,6 +293,7 @@ footer {
   }
 
   .icon-btn{
-     margin: 0 auto 0 auto;
+    margin:10px;
+
   }
 }
