@@ -15,7 +15,7 @@ function searchArtist(searchTerm) {
             listEl.innerHTML = item.artistName + " — " + item.trackName;
             document.querySelector("#results").appendChild(listEl);
           } else {
-            item.artistName == undefined && item.trackName == undefined;
+            item.artistName == undefined || item.trackName == undefined;
             console.log(error);
             var listError = document.createElement("div");
             listError.innerHTML = "Artist or song not found!";
@@ -54,7 +54,8 @@ document.querySelector("#results").addEventListener("click", function (event) {
   var songInfo = event.target.textContent.replace(" — ", "/");
   searchLyrics(songInfo);
   var songInfo = event.target.textContent;
-  storage.push(string);
+
+  storage.push(songInfo);
   localStorage.setItem("songObject", JSON.stringify(storage));
 });
 
