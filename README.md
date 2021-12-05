@@ -15,10 +15,24 @@ __WE use for this project__
 - HTML
 - CSS (*flex layout*)
 - JavaScript
+
+
 - [iTunes]("https://affiliate.itunes.apple.com/resources/documentation/itunes-store-web-service-search-api/")
 - [lyrics.ovh](https://lyricsovh.docs.apiary.io/#reference/0/lyrics-of-a-song/search)
 
+# **Contributors of this Project**
+
+- ## Bianca Chami
+- ## Fabiola Castaneda
+- ## Mekonnen Mohammed
+- ## Pawanpreet Kaur
+- ## Vincent Nguyen
+- ## Yashar Sarabi
+
+
 ![Artist and Lyrics](./assets/images/artist-and-lyrics-project.png)
+
+### Web mobile
 
 ![Artist and Lyrics, responsive](./assets/images/artist&lyrics-smartphone.png)
 
