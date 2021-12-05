@@ -1,88 +1,83 @@
-<!DOCTYPE html>
-<html lang="en">
 
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+<!doctype html>
+<html class="no-js" lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <!-- FONT-FAMILY -->
+  
     <link
-        href="https://fonts.googleapis.com/css2?family=Domine:wght@600&family=Raleway:wght@100&family=Roboto+Mono:ital,wght@0,500;1,400&family=Special+Elite&display=swap"
-        rel="stylesheet">
-    <!-- ICONS -->
-    <script src="https://kit.fontawesome.com/4cf7e7bf8a.js" crossorigin="anonymous"></script>
-    <title>Artist & Lyrics</title>
-
-    <link rel="stylesheet" href="./assets/css/style.css">
-</head>
-
-<body>
-    <header class="headerBox">
-        <h1>Artist & Lyrics</h1>
-        <div class="nav borderYtoX">
-            <a href="#">Home</a>
-            <a href="#">About</a>
-            <a href="#">Contact</a>
-         </div>
-    </header>
-
-    <div class='about'>
-        <h2>About</h2>
-        <p>We are a group of entrepreneurs that want to make a change in the world of IT, we want to show the young
-            people,
-            musicians and lovers of music how can they are allowed to have acces to those lyrics that you really want to
-            learn
-            This page was made for those musicians that need to live by day and keep track of all kinds of lyrics and
-            learn
-            the newest songs of the day.</p>
-    </div>
-
-
-    <br>
-    <section class='searching-container'>
-        <div class="input-group m b-3">
-            <input type="text" class="form-control search-color" placeholder="Enter Artist or Song Name Here"
-                aria-label="Artist Name" id="InputFromUser">
-            <div class="input-group-append">
-                <button class="btn btn-outline-secondary btn-color" type="button" id="searchBtn">Search</button>
-            </div>
-
-            <section id="search-results">
-                <div><h3>Titles</h3></div>
-    
-                <ul id="results"></ul>
-                <div><h3>Lyrics</h3></div>
-                
-                <div id="lyrics"></div>
-            </section>
-
-            <!----for local storage-->
-            <section class="row">
-                <div class="col-md-1"></div>
-                <div class="col-md-3">
-                    <div class="list-group"></div>
-                </div>
-            </section>
-            <script src="./assets/js/script.js"></script>
+    href="https://fonts.googleapis.com/css2?family=Domine:wght@600&family=Raleway:wght@100&family=Roboto+Mono:ital,wght@0,500;1,400&family=Special+Elite&display=swap"
+    rel="stylesheet"
+    />
+    <script
+    src="https://kit.fontawesome.com/4cf7e7bf8a.js"
+    crossorigin="anonymous"
+ ></script>
+    <link rel="stylesheet" href="assets/css/foundation.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Artist and Lyrics / Foundation</title>
+  </head>
+  <body>
+    <div class="grid-container" style= "padding:0;">
+      <!-- header -->
+      <header class="grid-x text-center" style="margin-bottom: 100px;">
+        <div class="medium-6 cell" >
+          <h1>Artist & Lyrics</h1>
         </div>
-    </section>
-        <footer>
-            <div class='icons'>
-                <button class='icon-btn'>Download<i class="icon fab fa-google-play"></i></button>
-                <button class='icon-btn'>Download<i class="icon fab fa-apple"></i></button>
+        <div class="medium-6 cell grid-x align-middle">
+          <a class="small-4 cell" href="#">Home</a>
+          <a class = "small-4 cell" href="#">About</a>
+          <a class = "small-4 cell" href="#">Contact</a>
+        </div>
+      </header>
+      
+      <!-- search bar -->
+      <div class="grid-x text-center" style= "padding:15px;height:160px;">
+        
+        <div class="medium-6 cell">
+          <label class="text-left">
+            Please enter Artist or Music name here:
+            <input class="" type="text" name="" id="InputFromUser">
+          </label>
+          
+          <button id="searchBtn" class = "button large" type="submit">Search</button>
+        </div>
+
+      </div>
+  
+      <!-- results -->
+      <div class="grid-x search" style="padding:15px">
+          <div class="medium-6 cell" id="song-list">
+
+            <div class="cell">
+              <h3>Search History</h3>
+              <ul id="search-history"></ul>
             </div>
 
-            <p class="copyright">© Made with love by group-6</p>
-        </footer>
+            <div class="cell">
+              <h3>Search results</h3>
+              <ul id="results-list"> </ul>
+            </div>
 
+          </div>
+          
+          <div class="medium-6 cell text-center">
+            <div id="lyrics"></div>
+          </div>
+      </div>
 
+      <!-- footer -->
+
+    </div>
+    <div class="footer">
+      <p class="copyright">© Made with love by group-6</p>
+    </div>
     
 
-
-
-
-        <script src="./assets/js/script.js"></script>
-</body>
-
+    <script src="assets/js/vendor/jquery.js"></script>
+    <script src="assets/js/vendor/what-input.js"></script>
+    <script src="assets/js/vendor/foundation.min.js"></script>
+    <script src="assets/js/script.js"></script>
+  </body>
 </html>
