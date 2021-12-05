@@ -16,7 +16,12 @@ __WE use for this project__
 - CSS (*flex layout*)
 - JavaScript
 - [iTunes]("https://affiliate.itunes.apple.com/resources/documentation/itunes-store-web-service-search-api/")
-- [Second API title](https...)
+- [lyrics.ovh](https://lyricsovh.docs.apiary.io/#reference/0/lyrics-of-a-song/search)
+
+![Artist and Lyrics](./assets/images/artist-and-lyrics-project.png)
+
+![Artist and Lyrics, responsive](./assets/images/artist&lyrics-smartphone.png)
+
 
 
 
