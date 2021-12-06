@@ -16,9 +16,12 @@ __WE use for this project__
 - CSS (*flex layout*)
 - JavaScript
 
-
 - [iTunes]("https://affiliate.itunes.apple.com/resources/documentation/itunes-store-web-service-search-api/")
 - [lyrics.ovh](https://lyricsovh.docs.apiary.io/#reference/0/lyrics-of-a-song/search)
+
+[Github Repository](git@github.com:chamibia/lyrics-finder.git)
+
+[Github URL]()
 
 # **Contributors of this Project**
 
